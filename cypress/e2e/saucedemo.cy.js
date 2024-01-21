@@ -71,8 +71,14 @@ Thank you for your order! mesaji goruntulenecek */
         methods.clickButton(sdLocators.finishButton)
 
         methods.shouldHaveText(sdLocators.thankU,'Thank you for your order!')
-        
+
         methods.shouldHaveText(sdLocators.thankU,'testtestest')
+
+
+
+
+
+        
 
   })
 
