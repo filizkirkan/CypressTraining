@@ -46,7 +46,7 @@ Thank you for your order! mesaji goruntulenecek */
 
         methods.shouldHaveText(sdLocators.removeCheck,'Remove')
 
-methods.clickButton(sdLocators.goToCartIcon)
+        methods.clickButton(sdLocators.goToCartIcon)
 
         methods.shouldHaveText(sdLocators.description,'Description')
 
@@ -71,6 +71,8 @@ methods.clickButton(sdLocators.goToCartIcon)
         methods.clickButton(sdLocators.finishButton)
 
         methods.shouldHaveText(sdLocators.thankU,'Thank you for your order!')
+        
+        methods.shouldHaveText(sdLocators.thankU,'testtestest')
 
   })
 
